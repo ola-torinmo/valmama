@@ -67,7 +67,7 @@ function App() {
           <img 
             src={celebrant}
             alt="celebrant"
-            className="rounded-lg shadow-xl bg-auto bg-no-repeat bg-center w-[280px] mt-[70px]"
+            className="rounded-lg shadow-xl bg-auto bg-no-repeat bg-center md:w-[280px] w-[250px] md:mt-[70px]"
           />
           
         </div>
