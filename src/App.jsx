@@ -44,7 +44,7 @@ function App() {
           className="player absolute md:left-[23%] left-[-9%] md:-top-2 top-[12%] transform -rotate-45 md:h-[350px] h-[200px] md:w-[350px] w-[250px]"
           loop
           autoplay
-          // style={{ height: '350px', width: '350px' }}
+         
 
         />
         </div>
@@ -55,24 +55,13 @@ function App() {
           className="player absolute md:left-[36%] left-[-17%] md:-top-6 top-[12%]  md:h-[350px] h-[200px] md:w-[350px] w-[350px]"
           loop
           autoplay
-          // style={{ height: '350px', width: '350px' }}
-
+          
         />
         </div>
        
 
         <div className="relative">
 
-        {/* <div className=''>
-          <Player
-          src={birthday}
-          className="player absolute left-8 top-1 transform -rotate-45"
-          loop
-          autoplay
-          style={{ height: '300px', width: '300px' }}
-
-        />
-        </div> */}
 
           {/* Placeholder Image */}
           <img 
@@ -83,10 +72,7 @@ function App() {
           
         </div>
 
-        {/* Club Motto */}
-        {/* <h1 className="text-6xl font-bold text-white text-center shadow-lg mt-16">
-          Més que un club
-        </h1> */}
+      
 
            {/* Modal */}
            {isModalOpen && (
@@ -102,7 +88,7 @@ function App() {
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900">Message fron Zaydan</h2>
-                  <p className="text-gray-500 mt-1">Hey, Happy Birthday!</p>
+                  <p className="text-gray-500 mt-1">Hey, Happy Birthday Najhan!</p>
                 </div>
                 <button 
                   onClick={() => setIsModalOpen(false)}
@@ -115,15 +101,15 @@ function App() {
               <div className="space-y-4">
                 <div className=" ">
                   <p className="text-sm font-medium text-gray-500"> I’ve been thinking about what to write for a while and realized that no words could fully describe you. Maybe it’s because you’re beyond imagination, or perhaps because when God made you, He made sure there weren’t enough words to capture your essence. From the way you walk and talk to your smile that lights up the world, Together, we turn life’s challenges into beautiful moments.</p>
-                  {/* <p className="text-lg text-gray-900">1899</p> */}
+                  
                 </div>
                 <div className="">
                   <p className="text-sm font-medium text-gray-500"> I love the way you let your guard down and trust me with your heart. It’s an honor, especially knowing the world hasn’t always been kind. But there’s magic in that, in how you bloom despite everything. You’re the flower I want to protect through every storm and winter. I’ll be here, ears perked at the sound of your name, ready to stand by your side, to carry the weight of the world when it feels too heavy. You give me strength, just as I hope to give you peace.</p>
-                  {/* <p className="text-lg text-gray-900">Camp Nou</p> */}
+                 
                 </div>
                 <div className="">
                   <p className="text-sm font-medium text-gray-500"> You’re a gift, a blessing, and I thank God every day that He drew you into my life. You planted a seed in me that has grown into something beautiful—peace, love, and understanding. I see the light in you, and I’m honored that you see the same in me. Together, we’ll continue growing, weathering every storm, and cherishing every sunrise. Omo Jagunna, you’re one of a kind, and I love you for it.</p>
-                  {/* <p className="text-lg text-gray-900">Blaugrana</p> */}
+                 
                 </div>
               </div>
             </div>
