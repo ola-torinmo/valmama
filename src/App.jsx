@@ -55,7 +55,7 @@ function App() {
             onClick={() => setIsModalOpen(true)}
             className="px-6 py-3 bg-pink-500/10 border border-pink-500/20 text-pink-500 rounded-lg hover:bg-pink-500/20 transition-all duration-300 ease-in-out"
           >
-            From Daddy
+            Message From Daddy
           </button>
         </div>
 
